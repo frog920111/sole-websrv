@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Sole University</title>
+
+		<!-- Preloader CSS-->
+		<style>#preloader:after,#preloader:before{content:"";display:block;left:-1px;top:-1px}#preloader-overlayer,#preloader:after,#preloader:before{position:absolute;height:100%;width:100%}#preloader-overlayer{position:fixed;top:0;left:0;background-color:#112E3B;z-index:999}#preloader{height:40px;width:40px;position:fixed;top:50%;left:50%;margin-top:-20px;margin-left:-20px;z-index:9999}#preloader:before{-webkit-animation:rotation 1s linear infinite;animation:rotation 1s linear infinite;border:2px solid #42DB0C;border-top:2px solid transparent;border-radius:100%}#preloader:after{border:1px solid rgba(255,255,255,.1);border-radius:100%}@media only screen and (min-width:768px){#preloader{height:60px;width:60px;margin-top:-30px;margin-left:-30px}#preloader:before{left:-2px;top:-2px;border-width:2px}}@media only screen and (min-width:1200px){#preloader{height:80px;width:80px;margin-top:-40px;margin-left:-40px}}@-webkit-keyframes rotation{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes rotation{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}</style>
+
+		<!--
+		All CSS Codes Loaded
+		Ex: bootstrap, fontawesome, style, etc.
+		-->
+		<link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="assets/libs/linearicons/linearicons.css">
+		<link rel="stylesheet" href="assets/css/rentnow-icons.css">
+		<link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- Google Map JS-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]"></script>
+	</head>
+	<body class="rn-preloader">
+		<div id="preloader"></div>
+		<div id="preloader-overlayer"></div>
+
+		<!-- Header-->
+		<header class="rn-header">
+
+			<!-- Topbar-->
+			<div class="rn-topbar">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-sm-5 col-lg-3">
+
+							<!-- Tobar Social-->
+							<ul class="rn-social">
+								<li>
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+							</ul>
+
+						</div>
+						
+							<div class="col-12 col-sm-7 col-lg-9">
+
+								<!-- Topbar Contact with Icon-->
+								<div class="rn-icon-contents">
+									<div class="rn-phone rn-icon-content">
+										<div class="rn-icon">
+											<i class="lnr lnr-phone"></i>
+										</div>
+										<div class="rn-info">
+											<ul>
+												<li>1544-0714</li>
+												<li>(02)-6901-7010</li>
+											</ul>
+										</div>
+									</div>
+								
+									<div class="rn-address rn-icon-content">
+										<div class="rn-icon">
+											<i class="lnr lnr-map-marker"></i>
+										</div>
+										<div class="rn-info">
+											<ul>
+												<li>5층(관철동 13-13)</li>
+												<li>서울특별시 종로구 종로12길 15 </li>
+											</ul>
+										</div>
+									</div>
+							
+								</div>
+	
+							</div>
+						
+
+				
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar-->
+
+
+			<!-- Menubar-->
+			<div class="rn-menubar">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-4">
+							<!-- Logo-->
+							<a class="brand-name" href="index.html">
+								<img class="img-fluid" src="assets/images/mainlogo1.png" alt="Logo" style="width: 100px;">
+							</a>
+						</div>
+						<div class="col-8">
+							<nav class="rn-navbar-container">
+
+								<!-- Navbar Toggle Button for Only Tablet and Phone-->
+								<button class="rn-navbar-toggler" id="rn-navbar-toggler">
+									<span class="rn-navbar-toggler-bar"></span>
+									<span class="rn-navbar-toggler-bar"></span>
+									<span class="rn-navbar-toggler-bar"></span>
+								</button>
+
+								<!-- Main Nav Menu-->
+								<ul class="rn-navbar">
+									
+									<li>
+										<a href="#">대학 소개 
+											<i class="lnr lnr-chevron-down"></i>
+										</a>
+										<ul>
+											<li>
+												<a href="#">대학 현황</a>
+											</li>
+											 <li>
+												<a href="#">대학 상징</a>
+											</li>
+											<li>
+												<a href="#">총장실</a>
+											</li>
+											<li>
+												<a href="#">역사</a>
+											</li>
+											<li>
+												<a href="#">자료실</a>
+											</li> 
+										</ul>
+									</li>
+									<li>
+										<a href="#">Campus 
+											<i class="lnr lnr-chevron-down"></i>
+										</a>
+										<ul>
+											<li>
+												<a href="index2.html">서울 캠퍼스</a>
+											</li>
+											<li>
+												<a href="index.html">싱가포르 캠퍼스</a>
+											</li>
+											
+											
+											
+											
+										
+										</ul>
+									</li>
+									
+									<li>
+										<a href="#">입학 / 교육
+											<i class="lnr lnr-chevron-down"></i>
+										</a>
+										<ul>
+											<li>
+												<a href="#">대학</a>
+											</li>
+											<li>
+												<a href="#">대학원</a>
+											</li>
+											<li>
+												<a href="#">편입학</a>
+											</li>
+											<li>
+												<a href="#">입학 도우미</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">연구 / 산학</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Menubar-->
+
+		</header>
+		<!-- End Header-->
+
+		<!-- Slider-->
+		<div class="rn-carousel carousel slide" id="carouselExampleControls" data-ride="carousel">
+			<div class="carousel-inner">
+
+				<!-- Slider Item 1-->
+				<div class="carousel-item beactive">
+					<div class="carousel-caption">
+						<h2 class="rn-fade-bottom mb-25">#솔대학교</h2>
+						<p class="rn-fade-bottom rn-caption-item-2 mb-35">Beyond the Limit !</p>
+						
+					</div>
+					<div class="rn-slider-overlayer"></div>
+					<img class="d-block w-100" src="assets/images/main1.jpg" alt="slide">
+				</div>
+
+				<!-- Slider Item 2-->
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h2 class="rn-fade-bottom mb-25">#솔대학교</h2>
+						<p class="rn-fade-bottom rn-caption-item-2 mb-35">Beyond the Limit !</p>
+						
+					</div>
+					<div class="rn-slider-overlayer"></div>
+					<img class="d-block w-100" src="assets/images/main1.jpg" alt="slide">
+				</div>
+
+				<!-- Slider Item 3-->
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h2 class="rn-fade-bottom mb-25">#솔대학교</h2>
+						<p class="rn-fade-bottom rn-caption-item-2 mb-35">Beyond the Limit !</p>
+						
+					</div>
+					<div class="rn-slider-overlayer"></div>
+					<img class="d-block w-100" src="assets/images/main1.jpg" alt="slide">
+				</div>
+
+			</div>
+			<!-- Slider Controls -->
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="lnr lnr-chevron-left" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="lnr lnr-chevron-right" aria-hidden="true"></span>
+			</a>
+		</div>
+		<!-- End slider-->
+
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/libs/flatpickr/flatpickr.min.js"></script>
+		<script src="assets/js/starrr.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>
